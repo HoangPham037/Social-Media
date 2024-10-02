@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Created by Trần Nam on 9/1/22, 10:40 PM
+  ~    tranhoainam1312@gmail.com
+  ~     Last modified 9/1/22, 10:40 PM
+  ~     Copyright (c) 2022.
+  ~     All rights reserved.
+  -->
+
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_shortAnimTime"
+    android:fromAlpha="0"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:toAlpha="1" />

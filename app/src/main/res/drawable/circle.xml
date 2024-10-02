@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/progress">
+             <shape
+                 android:shape="rectangle">
+                 <corners android:radius="30dp"/>
+                 <solid android:color="#FF9479" />
+             </shape>
+
+     </item>
+
+    <item
+
+        android:id="@+id/secondary_progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="30dp"/>
+                <solid android:color="#FF5666"/>
+            </shape>
+        </clip>
+
+
+    </item>
+
+</layer-list>

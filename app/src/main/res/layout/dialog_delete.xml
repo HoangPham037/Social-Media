@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/_10sdp"
+    android:background="@drawable/bg_bottom_add_acc">
+
+
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:padding="@dimen/_15sdp"
+        android:elevation="@dimen/_10sdp"
+        android:text="@string/txt_remove_this_follower"
+        android:textColor="@color/grey01"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:background="@color/brown" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_10sdp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center"
+
+        android:padding="@dimen/_15sdp"
+        android:text="@string/txt_cancel"
+        android:textColor="@color/grey01"
+        android:textSize="14sp" />
+</LinearLayout>
+

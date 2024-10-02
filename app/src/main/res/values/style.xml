@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="TabLayoutStyle" parent="Widget.MaterialComponents.TabLayout" >
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+    </style>
+    <style name="TabTextAppearance" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="MyDatePickerDialog" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorAccent">@color/purbpe_app</item> <!-- Change colorAccent to your desired color -->
+    </style>
+
+    <style name="SpinnerDatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="CustomDateTimePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">@color/color_orange_app</item>
+        <item name="colorPrimaryDark">@color/color_orange_app</item>
+        <item name="colorAccent">@color/color_orange_app</item>
+        <item name="android:windowBackground">@drawable/bg_datetimepicker</item>
+
+        <item name="buttonBarNegativeButtonStyle">@style/CustomDialogButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/CustomDialogButtonStyle</item>
+        <item name="buttonBarButtonStyle">@style/CustomDialogButtonStyle</item>
+    </style>
+
+    <style name="CustomDialogButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <!-- Customize the button background color -->
+        <item name="backgroundTint">@color/color_orange_app</item>
+        <item name="android:textColor">@color/color_orange_app</item>
+    </style>
+
+
+</resources>

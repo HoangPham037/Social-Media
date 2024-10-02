@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_back"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jakatavariable"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/txt_settings"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/acc_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_account_details"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jakatavariable"
+            android:textStyle="bold"
+            android:text="@string/txt_account_details"
+            android:textColor="@color/color_setting"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="6dp"
+            android:rotation="180"
+            android:src="@drawable/ic_back"
+            app:tint="@color/color_grey"
+            tools:ignore="ContentDescription" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_language"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jakatavariable"
+            android:textStyle="bold"
+            android:text="@string/txt_language"
+            android:textColor="@color/color_setting"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="6dp"
+            android:rotation="180"
+            android:src="@drawable/ic_back"
+            app:tint="@color/color_grey"
+            tools:ignore="ContentDescription" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_privacy_policy"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/txt_privacy_policy"
+            android:textColor="@color/color_setting"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="6dp"
+            android:rotation="180"
+            android:src="@drawable/ic_back"
+            app:tint="@color/color_grey"
+            tools:ignore="ContentDescription" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/contact_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_contact_support"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/txt_contact_support"
+            android:textColor="@color/color_setting"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="6dp"
+            android:rotation="180"
+            android:src="@drawable/ic_back"
+            app:tint="@color/color_grey"
+            tools:ignore="ContentDescription" />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/brown" />
+
+    <TableRow
+        android:id="@+id/switch_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_switch_acc"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jakatavariable"
+            android:textStyle="bold"
+            android:text="@string/txt_switch_account"
+            android:textColor="@color/color_setting"
+            android:textSize="16sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_avt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_iv_profile"
+            android:padding="2dp"
+            android:src="@drawable/ic_profile" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20dp"
+            android:padding="6dp"
+            android:rotation="180"
+            android:src="@drawable/ic_back"
+            app:tint="@color/color_grey"
+            tools:ignore="ContentDescription" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_logout"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jakatavariable"
+            android:text="@string/logout"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+
+    </TableRow>
+</LinearLayout>

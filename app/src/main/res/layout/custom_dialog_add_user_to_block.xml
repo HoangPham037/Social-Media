@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_16dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_dialog_delete"
+        app:cardCornerRadius="@dimen/_16dp"
+        app:cardElevation="1dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:textSize="@dimen/_16sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            tools:text="Block messages from"
+            android:textColor="@color/color_blue_01" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:gravity="center"
+            tools:text="will not receive notifications and you can unblock  at any time. If you don't delete it, the conversation will still be visible"
+            android:textColor="@color/text_color" />
+
+
+        <LinearLayout
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:orientation="horizontal"
+            android:padding="@dimen/_8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <TextView
+                android:padding="@dimen/_8dp"
+                android:id="@+id/tvConfirmCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/cancel"
+                android:textColor="@color/color_gray_02" />
+
+            <TextView
+                android:padding="@dimen/_8dp"
+                android:id="@+id/tvConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/block_single_chat"
+                android:textColor="@color/color_blue_01" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

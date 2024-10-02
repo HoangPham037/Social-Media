@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btn_question"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:background="@drawable/ic_button_question"
+    android:textColor="@color/white">
+
+</androidx.appcompat.widget.AppCompatButton>

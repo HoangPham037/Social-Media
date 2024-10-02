@@ -1,0 +1,96 @@
+{
+  "project_info": {
+    "project_number": "640231531045",
+    "firebase_url": "https://social-media-9d614-default-rtdb.firebaseio.com",
+    "project_id": "social-media-9d614",
+    "storage_bucket": "social-media-9d614.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640231531045:android:d91583ed9d43f57ed455cc",
+        "android_client_info": {
+          "package_name": "com.social.socialmedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640231531045-d1cqqln9nhc82fosl9bqf1n54rh3qgrf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.socialmedia",
+            "certificate_hash": "5ebf8c8435d049705eb36ce9943fecbcc1a162db"
+          }
+        },
+        {
+          "client_id": "640231531045-feqndab0pigio81vn1agecq81n3kgcaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.socialmedia",
+            "certificate_hash": "1a89dd4ca33e82adf78c3a3c7429afe54d42579f"
+          }
+        },
+        {
+          "client_id": "640231531045-fg67ls62rtcr1c3lpl6mvil4b75f1rlb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.socialmedia",
+            "certificate_hash": "27b0bf9cf81d9231049e93c47def0a979600ffb8"
+          }
+        },
+        {
+          "client_id": "640231531045-gafgofeknf2rba5nglj54ka0nij93vb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.socialmedia",
+            "certificate_hash": "b69f9c45ff57cc1fcfe7ae038ff6490f8e232883"
+          }
+        },
+        {
+          "client_id": "640231531045-nr667ikms8mus6ijsfqikrrij8pos27m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.socialmedia",
+            "certificate_hash": "ad4ea2d3c50472e88e1e51f63ef582a495402cb1"
+          }
+        },
+        {
+          "client_id": "640231531045-pcqeb0m256olp727om2tbc3vtrgd5cg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.socialmedia",
+            "certificate_hash": "85d37f543bbdb42c314ea5b90d0006b55c107d90"
+          }
+        },
+        {
+          "client_id": "640231531045-rrle1radf3tlvep4hejrne1h141slcf5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.socialmedia",
+            "certificate_hash": "a6d24e0d6470ac7a880483231707ac6d2065a85a"
+          }
+        },
+        {
+          "client_id": "640231531045-8qgrdqpddm9npl79uvcd329diptiutjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9AEl6kI1YarSmPda1SjYxfIzFupzcYxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640231531045-8qgrdqpddm9npl79uvcd329diptiutjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

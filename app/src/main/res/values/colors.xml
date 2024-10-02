@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#444655</color>
+    <color name="purple">#7570EA</color>
+    <color name="purple2">#FFBD3C</color>
+    <color name="low_purple">#EBEEFF</color>
+    <color name="purbpe_app">#7570EA</color>
+
+    <color name="color_gray_01">#444655</color>
+    <color name="color_gray_02">#9395A1</color>
+    <color name="color_gray_03">#A9AABC</color>
+    <color name="color_gray_04">#F3F6F6</color>
+    <color name="color_blue_01">#3E7FFF</color>
+    <color name="color_blue_02">#74D2FF</color>
+    <color name="color_orange_01">#F4740C</color>
+    <color name="color_orange_02">#FEC393</color>
+    <color name="color_purple_01">#7570EA</color>
+    <color name="color_purple_02">#BBC5FF</color>
+    <color name="color_purple_03">#EBEEFF</color>
+    <color name="color_green">#00B343</color>
+    <color name="color_pink">#FCC5FE</color>
+    <color name="color_orange_app">#FFAA05</color>
+
+    <color name="bgr_chats_screen">@color/color_purple_03</color>
+    <color name="text_color">@color/color_gray_01</color>
+    <color name="text_color_mes_read">@color/color_gray_02</color>
+    <color name="text_color_mes__not_read">@color/color_gray_01</color>
+
+    <color name="blue">#FF005a9c</color>
+    <color name="lightBlue">#ff6691c4</color>
+    <color name="lighterBlue">#ffcdd8ec</color>
+    <color name="controlBackground">#ffffffff</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="brown">#6A6A6A</color>
+    <color name="brown2">#C8C7C7</color>
+    <color name="color_setting">#444655</color>
+    <color name="color_grey">#9395A1</color>
+    <color name="btn_color">#F3F6F6</color>
+    <color name="green">#7570EA</color>
+    <color name="red">#FF1100</color>
+    <color name="btn_color1">#7570EA</color>
+    <color name="bg_item_notification">#EBEEFF</color>
+    <color name="cancel">#3E7FFF</color>
+    <color name="color_bg_bottom">#F3F6F6</color>
+    <color name="color_view_comment">#A9AABC</color>
+    <color name="color_app">#4B61F4</color>
+    <color name="color_button_suggest">#FF5666</color>
+    <color name="transparent">#00FFCC00</color>
+    <color name="txt_avt">#444655</color>
+    <color name="grey01">#444655</color>
+    <color name="grey02">#9395A1</color>
+    <color name="txtColor">#404251</color>
+    <color name="bg_popup">#F3F6F6</color>
+    <color name="blg_btn">#FFF9E9</color>
+    <color name="blackAlpha45">#73000000</color>
+    <color name="whiteAlpha20">#33ffffff</color>
+    <color name="grayA01">#BEBEBE</color>
+    <color name="orangeA01">#D62763</color>
+</resources>

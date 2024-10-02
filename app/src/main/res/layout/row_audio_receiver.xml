@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSendConversationDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_8dp"
+            android:visibility="gone"
+            tools:text="monday" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_receiver_mess"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imgActionPlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:src="@drawable/ic_action_play_receiver" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imgActionPause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_8dp"
+                    android:src="@drawable/ic_action_pause_receiver"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/playingAudio1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/anim_playing_audio" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/playingAudio2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="@dimen/_8dp"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/anim_playing_audio" />
+
+            <TextView
+                android:id="@+id/tvTimer"
+                android:fontFamily="@font/jakatavariable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/text_color"
+                tools:text="00:15" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_mess_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jakatavariable"
+            android:gravity="center"
+            android:textColor="@color/color_gray_02"
+            android:textSize="@dimen/_12sp"
+            tools:text="10:00 AM" />
+
+    </LinearLayout>
+</layout>

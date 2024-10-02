@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context=".ui.firstTimeSetUp.ChoosePreferencesFragment">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingVertical="20dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ic_backChoosePref"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:maxHeight="3dp"
+                 />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/jakatavariable"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/choose_preferences"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#444655"
+            android:fontFamily="@font/jakatavariable"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/we_ll_use_this_to_personalized_your_feed_n_select_at_least_3_options"
+            android:textSize="16sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="400dp"
+            android:id="@+id/rcvPref"
+            android:layout_marginHorizontal="30dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addPrefer"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/jakatavariable"
+            android:background="@drawable/bg_login_field"
+            android:backgroundTint="#FFAA05"
+            android:text="@string/complete_registation"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/layoutLogin" />
+
+    </LinearLayout>
+</layout>

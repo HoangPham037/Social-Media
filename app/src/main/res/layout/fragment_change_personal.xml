@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/ic_back"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:padding="3dp"
+            android:layout_marginStart="5dp"
+            android:text="@string/txt_personal_biography"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+
+    </TableRow>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_edit_1"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:padding="5dp"
+        android:text="@string/txt_edit_description"
+        android:textColor="@color/text_color"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:id="@+id/lnDescription"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_description"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp">
+
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:fontFamily="@font/montserrat_bold"
+            android:hint="@string/txt_add_anything_such_as_your_motto_or_hobbies"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:scrollHorizontally="false"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/color_grey"
+            android:textSize="14sp"
+            tools:ignore="Autofill,LabelFor" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_textview1"
+        android:text="@string/txt_save_changes"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="itemQuestion"
+            type="com.example.socialmedia.model.QuestionLevel" />
+        <variable
+            name="itemq"
+            type="com.example.socialmedia.ui.minigame.list_question.ListquestionAvt" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:background="@color/transparent"
+        android:layout_marginTop="18dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+          >
+          <FrameLayout
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <ImageView
+                  android:id="@+id/img_question"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:scaleType="fitCenter"
+                  android:src="@drawable/img_question_detail"
+                  app:loadImageQuestion="@{itemQuestion.imageQuestion}" />
+              <ImageView
+                  android:id="@+id/check_done"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/ic_check"
+                  android:visibility="gone"
+                  android:layout_gravity="end|bottom"
+                  android:layout_marginEnd="8dp"
+                  android:layout_marginBottom="5dp"/>
+          </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
